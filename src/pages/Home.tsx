@@ -4,7 +4,7 @@ import Footer from "../layouts/Footer.tsx";
 function Home(){
     return(
         <>
-            <Header  nomeDoCliente ='augusto'/>
+            <Header  nomeDoCliente ="Augusto"/>
             
             <br /><br /><br /><br />
 
