@@ -5,8 +5,7 @@
  
  function Footer(props: FooterProps){
     return(
-        <>Numero para contato {props.NumeroDoCliente}
-            </>
+        <>NÚMERO PARA CONTATO {props.NumeroDoCliente}</>
     );
 }
 

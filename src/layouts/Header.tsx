@@ -6,8 +6,7 @@ type HEaderProps = {
 function Header(props: HEaderProps){
     return(
         <>
-        PAINEL ADMINISTRATIVO ONP - Usuario logado: {props.nomeDoCliente}
-        </>
+        PAINEL ADMINISTRATIVO ONP - Usuario logado: {props.nomeDoCliente}</>
     );
 }
 

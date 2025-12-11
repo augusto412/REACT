@@ -8,7 +8,7 @@ function Home(){
             
             <br /><br /><br /><br />
 
-            < Footer/>
+            < Footer NumeroDoCliente={83-1231231}/>
         </> 
     );
 }
