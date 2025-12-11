@@ -1,6 +1,12 @@
- function Footer(){
+ type FooterProps ={
+    NumeroDoCliente?: Number;
+
+ }
+ 
+ function Footer(props: FooterProps){
     return(
-        <>FOOTER</>
+        <>Numero para contato {props.NumeroDoCliente}
+            </>
     );
 }
 

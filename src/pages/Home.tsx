@@ -4,11 +4,11 @@ import Footer from "../layouts/Footer.tsx";
 function Home(){
     return(
         <>
-            <Header />
+            <Header  nomeDoCliente ='augusto'/>
             
             <br /><br /><br /><br />
 
-            < Footer />
+            < Footer/>
         </> 
     );
 }

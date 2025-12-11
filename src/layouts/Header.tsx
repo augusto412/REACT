@@ -1,7 +1,14 @@
-function Header(){
-    return(
-        <>HEADER</>
-    )
+type HEaderProps = {
+    nomeDoCliente?: string;
+    idadeDoCliete?: number;
 }
 
-export default Header ;
+function Header(props: HEaderProps){
+    return(
+        <>
+        PAINEL ADMINISTRATIVO ONP - Usuario logado: {props.nomeDoCliente}
+        </>
+    );
+}
+
+export default Header;
